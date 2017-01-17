@@ -1,0 +1,14 @@
+<view class="backView">
+    <canvas canvas-id="snakeCanvas" class="canvas"/>
+</view>
+<view class="controlView">
+    <button class="btnClass" bindtap="changeDirection" id="up">up</button>
+    <view style="display:flex; height:33.33%">
+        <button class="btnClass" bindtap="changeDirection" id="left">left</button>
+        <button class="btnClass" bindtap="startGame" >{{btnTitle}}</button>
+        <button class="btnClass" bindtap="changeDirection" id="right">right</button>
+    </view>
+    <button class="btnClass" bindtap="changeDirection" id="down">down</button>
+</view>
+
+

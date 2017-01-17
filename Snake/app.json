@@ -1,0 +1,10 @@
+{
+    "pages": [
+      "pages/Snake/snake"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "贪食蛇"
+    }
+}
